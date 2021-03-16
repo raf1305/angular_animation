@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid blue;
+}
+p{
+    transition:transform 1s ease-in-out;
+}
+div:hover p{
+    display: block;
+    border: 1px red dashed;
+    transform: translateX(40%);
+}
